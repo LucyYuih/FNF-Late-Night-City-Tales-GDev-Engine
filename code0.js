@@ -782,7 +782,7 @@ gdjs.copyArray(runtimeScene.getObjects("Opening"), gdjs.MenuCode.GDOpeningObject
 }
 
 
-};gdjs.MenuCode.mapOfEmptyGDStatisticsObjects = Hashtable.newFrom({"Statistics": []});
+};gdjs.MenuCode.mapOfEmptyGDOpeningObjects = Hashtable.newFrom({"Opening": []});
 gdjs.MenuCode.eventsList5 = function(runtimeScene) {
 
 {
@@ -6690,7 +6690,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.MenuCode.mapOfEmptyGDStatisticsObjects) == 1;
+isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.MenuCode.mapOfEmptyGDOpeningObjects) == 1;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Opening"), gdjs.MenuCode.GDOpeningObjects1);

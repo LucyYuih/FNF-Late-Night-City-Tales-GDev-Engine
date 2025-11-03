@@ -130,7 +130,7 @@ for (var i = 0, k = 0, l = gdjs.CreditsCode.GDPauseButton3Objects1.length;i<l;++
 gdjs.CreditsCode.GDPauseButton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20313628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41726404);
 }
 }
 if (isConditionTrue_0) {

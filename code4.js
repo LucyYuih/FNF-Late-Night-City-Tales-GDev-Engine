@@ -399,6 +399,12 @@ gdjs.The_32gameCode.GDbrokenObjects3= [];
 gdjs.The_32gameCode.GDbrokenObjects4= [];
 gdjs.The_32gameCode.GDbrokenObjects5= [];
 gdjs.The_32gameCode.GDbrokenObjects6= [];
+gdjs.The_32gameCode.GDredsplashObjects1= [];
+gdjs.The_32gameCode.GDredsplashObjects2= [];
+gdjs.The_32gameCode.GDredsplashObjects3= [];
+gdjs.The_32gameCode.GDredsplashObjects4= [];
+gdjs.The_32gameCode.GDredsplashObjects5= [];
+gdjs.The_32gameCode.GDredsplashObjects6= [];
 
 
 gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDComboNumbersObjects1Objects = Hashtable.newFrom({"ComboNumbers": gdjs.The_32gameCode.GDComboNumbersObjects1});
@@ -7856,6 +7862,12 @@ gdjs.The_32gameCode.GDbrokenObjects3.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects4.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects5.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects6.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects1.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects2.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects3.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects4.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects5.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects6.length = 0;
 
 gdjs.The_32gameCode.eventsList92(runtimeScene);
 gdjs.The_32gameCode.GDBfRightNoteStaticObjects1.length = 0;
@@ -8212,6 +8224,12 @@ gdjs.The_32gameCode.GDbrokenObjects3.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects4.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects5.length = 0;
 gdjs.The_32gameCode.GDbrokenObjects6.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects1.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects2.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects3.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects4.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects5.length = 0;
+gdjs.The_32gameCode.GDredsplashObjects6.length = 0;
 
 
 return;

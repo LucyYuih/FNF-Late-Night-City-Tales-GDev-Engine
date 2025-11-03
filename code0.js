@@ -493,6 +493,12 @@ gdjs.MenuCode.GDbrokenObjects3= [];
 gdjs.MenuCode.GDbrokenObjects4= [];
 gdjs.MenuCode.GDbrokenObjects5= [];
 gdjs.MenuCode.GDbrokenObjects6= [];
+gdjs.MenuCode.GDredsplashObjects1= [];
+gdjs.MenuCode.GDredsplashObjects2= [];
+gdjs.MenuCode.GDredsplashObjects3= [];
+gdjs.MenuCode.GDredsplashObjects4= [];
+gdjs.MenuCode.GDredsplashObjects5= [];
+gdjs.MenuCode.GDredsplashObjects6= [];
 
 
 gdjs.MenuCode.asyncCallback22419860 = function (runtimeScene, asyncObjectsList) {
@@ -7941,6 +7947,12 @@ gdjs.MenuCode.GDbrokenObjects3.length = 0;
 gdjs.MenuCode.GDbrokenObjects4.length = 0;
 gdjs.MenuCode.GDbrokenObjects5.length = 0;
 gdjs.MenuCode.GDbrokenObjects6.length = 0;
+gdjs.MenuCode.GDredsplashObjects1.length = 0;
+gdjs.MenuCode.GDredsplashObjects2.length = 0;
+gdjs.MenuCode.GDredsplashObjects3.length = 0;
+gdjs.MenuCode.GDredsplashObjects4.length = 0;
+gdjs.MenuCode.GDredsplashObjects5.length = 0;
+gdjs.MenuCode.GDredsplashObjects6.length = 0;
 
 gdjs.MenuCode.eventsList91(runtimeScene);
 gdjs.MenuCode.GDlogobumpinObjects1.length = 0;
@@ -8393,6 +8405,12 @@ gdjs.MenuCode.GDbrokenObjects3.length = 0;
 gdjs.MenuCode.GDbrokenObjects4.length = 0;
 gdjs.MenuCode.GDbrokenObjects5.length = 0;
 gdjs.MenuCode.GDbrokenObjects6.length = 0;
+gdjs.MenuCode.GDredsplashObjects1.length = 0;
+gdjs.MenuCode.GDredsplashObjects2.length = 0;
+gdjs.MenuCode.GDredsplashObjects3.length = 0;
+gdjs.MenuCode.GDredsplashObjects4.length = 0;
+gdjs.MenuCode.GDredsplashObjects5.length = 0;
+gdjs.MenuCode.GDredsplashObjects6.length = 0;
 
 
 return;

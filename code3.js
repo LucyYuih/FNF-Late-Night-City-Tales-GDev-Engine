@@ -81,6 +81,8 @@ gdjs.PRELOADMUSICSCode.GDblacksplashObjects1= [];
 gdjs.PRELOADMUSICSCode.GDblacksplashObjects2= [];
 gdjs.PRELOADMUSICSCode.GDbrokenObjects1= [];
 gdjs.PRELOADMUSICSCode.GDbrokenObjects2= [];
+gdjs.PRELOADMUSICSCode.GDredsplashObjects1= [];
+gdjs.PRELOADMUSICSCode.GDredsplashObjects2= [];
 
 
 gdjs.PRELOADMUSICSCode.eventsList0 = function(runtimeScene) {
@@ -215,6 +217,8 @@ gdjs.PRELOADMUSICSCode.GDblacksplashObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDblacksplashObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDbrokenObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDbrokenObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDredsplashObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDredsplashObjects2.length = 0;
 
 gdjs.PRELOADMUSICSCode.eventsList0(runtimeScene);
 gdjs.PRELOADMUSICSCode.GDNewTextObjects1.length = 0;
@@ -297,6 +301,8 @@ gdjs.PRELOADMUSICSCode.GDblacksplashObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDblacksplashObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDbrokenObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDbrokenObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDredsplashObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDredsplashObjects2.length = 0;
 
 
 return;

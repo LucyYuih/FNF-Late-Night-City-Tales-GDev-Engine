@@ -319,6 +319,11 @@ gdjs.InicioCode.GDbrokenObjects2= [];
 gdjs.InicioCode.GDbrokenObjects3= [];
 gdjs.InicioCode.GDbrokenObjects4= [];
 gdjs.InicioCode.GDbrokenObjects5= [];
+gdjs.InicioCode.GDredsplashObjects1= [];
+gdjs.InicioCode.GDredsplashObjects2= [];
+gdjs.InicioCode.GDredsplashObjects3= [];
+gdjs.InicioCode.GDredsplashObjects4= [];
+gdjs.InicioCode.GDredsplashObjects5= [];
 
 
 gdjs.InicioCode.eventsList0 = function(runtimeScene) {
@@ -1857,6 +1862,11 @@ gdjs.InicioCode.GDbrokenObjects2.length = 0;
 gdjs.InicioCode.GDbrokenObjects3.length = 0;
 gdjs.InicioCode.GDbrokenObjects4.length = 0;
 gdjs.InicioCode.GDbrokenObjects5.length = 0;
+gdjs.InicioCode.GDredsplashObjects1.length = 0;
+gdjs.InicioCode.GDredsplashObjects2.length = 0;
+gdjs.InicioCode.GDredsplashObjects3.length = 0;
+gdjs.InicioCode.GDredsplashObjects4.length = 0;
+gdjs.InicioCode.GDredsplashObjects5.length = 0;
 
 gdjs.InicioCode.eventsList18(runtimeScene);
 gdjs.InicioCode.GDBackObjects1.length = 0;
@@ -2159,6 +2169,11 @@ gdjs.InicioCode.GDbrokenObjects2.length = 0;
 gdjs.InicioCode.GDbrokenObjects3.length = 0;
 gdjs.InicioCode.GDbrokenObjects4.length = 0;
 gdjs.InicioCode.GDbrokenObjects5.length = 0;
+gdjs.InicioCode.GDredsplashObjects1.length = 0;
+gdjs.InicioCode.GDredsplashObjects2.length = 0;
+gdjs.InicioCode.GDredsplashObjects3.length = 0;
+gdjs.InicioCode.GDredsplashObjects4.length = 0;
+gdjs.InicioCode.GDredsplashObjects5.length = 0;
 
 
 return;

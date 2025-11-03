@@ -89,6 +89,8 @@ gdjs.CreditsCode.GDblacksplashObjects1= [];
 gdjs.CreditsCode.GDblacksplashObjects2= [];
 gdjs.CreditsCode.GDbrokenObjects1= [];
 gdjs.CreditsCode.GDbrokenObjects2= [];
+gdjs.CreditsCode.GDredsplashObjects1= [];
+gdjs.CreditsCode.GDredsplashObjects2= [];
 
 
 gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
@@ -247,6 +249,8 @@ gdjs.CreditsCode.GDblacksplashObjects1.length = 0;
 gdjs.CreditsCode.GDblacksplashObjects2.length = 0;
 gdjs.CreditsCode.GDbrokenObjects1.length = 0;
 gdjs.CreditsCode.GDbrokenObjects2.length = 0;
+gdjs.CreditsCode.GDredsplashObjects1.length = 0;
+gdjs.CreditsCode.GDredsplashObjects2.length = 0;
 
 gdjs.CreditsCode.eventsList0(runtimeScene);
 gdjs.CreditsCode.GDfps2Objects1.length = 0;
@@ -337,6 +341,8 @@ gdjs.CreditsCode.GDblacksplashObjects1.length = 0;
 gdjs.CreditsCode.GDblacksplashObjects2.length = 0;
 gdjs.CreditsCode.GDbrokenObjects1.length = 0;
 gdjs.CreditsCode.GDbrokenObjects2.length = 0;
+gdjs.CreditsCode.GDredsplashObjects1.length = 0;
+gdjs.CreditsCode.GDredsplashObjects2.length = 0;
 
 
 return;

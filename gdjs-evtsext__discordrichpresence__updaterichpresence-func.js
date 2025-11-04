@@ -9,7 +9,7 @@ gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence = {};
 gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1e1bcc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x11526e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.evtTools.discordRP.client) return;
 
@@ -37,7 +37,7 @@ gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1e1bcc0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x11526e8(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord = {};
 gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x117ab78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x114da08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const remote = runtimeScene.getGame().getRenderer().getElectronRemote
     ? runtimeScene.getGame().getRenderer().getElectronRemote()
@@ -30,7 +30,7 @@ gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x117ab78(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x114da08(runtimeScene, eventsFunctionContext);
 
 }
 

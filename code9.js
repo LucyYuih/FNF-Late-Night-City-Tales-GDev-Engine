@@ -15595,7 +15595,7 @@ gdjs.lonelyCode.eventsList194(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.lonelyCode.userFunc0x21f6428 = function GDJSInlineCode(runtimeScene) {
+};gdjs.lonelyCode.userFunc0x11cd5b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -15785,7 +15785,7 @@ gdjs.lonelyCode.eventsList198(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.lonelyCode.userFunc0x21f6428(runtimeScene);
+gdjs.lonelyCode.userFunc0x11cd5b0(runtimeScene);
 
 }
 
@@ -15962,7 +15962,7 @@ gdjs.lonelyCode.eventsList202(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.lonelyCode.userFunc0x2238bc0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.lonelyCode.userFunc0x2292ee0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -16152,7 +16152,7 @@ gdjs.lonelyCode.eventsList206(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.lonelyCode.userFunc0x2238bc0(runtimeScene);
+gdjs.lonelyCode.userFunc0x2292ee0(runtimeScene);
 
 }
 
@@ -20377,6 +20377,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BFIcon"), gdjs.lonelyCode.GDBFIconObjects2);
 gdjs.copyArray(runtimeScene.getObjects("HeathBar"), gdjs.lonelyCode.GDHeathBarObjects2);
 gdjs.copyArray(runtimeScene.getObjects("LifeBar"), gdjs.lonelyCode.GDLifeBarObjects2);
+gdjs.copyArray(runtimeScene.getObjects("LifeBar2"), gdjs.lonelyCode.GDLifeBar2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("OppIcon"), gdjs.lonelyCode.GDOppIconObjects2);
 gdjs.copyArray(runtimeScene.getObjects("OppSideLifeBar"), gdjs.lonelyCode.GDOppSideLifeBarObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Statistics"), gdjs.lonelyCode.GDStatisticsObjects2);
@@ -20408,6 +20409,10 @@ gdjs.copyArray(runtimeScene.getObjects("Statistics"), gdjs.lonelyCode.GDStatisti
 }
 {for(var i = 0, len = gdjs.lonelyCode.GDBFIconObjects2.length ;i < len;++i) {
     gdjs.lonelyCode.GDBFIconObjects2[i].deleteFromScene(runtimeScene);
+}
+}
+{for(var i = 0, len = gdjs.lonelyCode.GDLifeBar2Objects2.length ;i < len;++i) {
+    gdjs.lonelyCode.GDLifeBar2Objects2[i].SetMaxValue((( gdjs.lonelyCode.GDLifeBarObjects2.length === 0 ) ? 0 :gdjs.lonelyCode.GDLifeBarObjects2[0].MaxValue(null)), null);
 }
 }
 }
@@ -20854,7 +20859,7 @@ gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDSymbolsObjects1Objects = Hashta
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreakObjects1Objects = Hashtable.newFrom({"Break": gdjs.lonelyCode.GDBreakObjects1});
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak2Objects1Objects = Hashtable.newFrom({"Break2": gdjs.lonelyCode.GDBreak2Objects1});
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak3Objects1Objects = Hashtable.newFrom({"Break3": gdjs.lonelyCode.GDBreak3Objects1});
-gdjs.lonelyCode.userFunc0x30faf88 = function GDJSInlineCode(runtimeScene) {
+gdjs.lonelyCode.userFunc0xaa6ba0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Dialogue scheduler for GDevelop 5 using audio channel 1 offset
 // - Requires a Text object in the scene named "FXTextPrototype"
@@ -21031,7 +21036,7 @@ gdjs.lonelyCode.eventsList272 = function(runtimeScene) {
 {
 
 
-gdjs.lonelyCode.userFunc0x30faf88(runtimeScene);
+gdjs.lonelyCode.userFunc0xaa6ba0(runtimeScene);
 
 }
 
@@ -22409,7 +22414,7 @@ gdjs.copyArray(runtimeScene.getObjects("LimuH"), gdjs.lonelyCode.GDLimuHObjects1
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelPlayingOffset(runtimeScene, 1) >= 50.04;
+isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelPlayingOffset(runtimeScene, 1) >= 50.08;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43791628);

@@ -437,7 +437,7 @@ gdjs.InicioCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.InicioCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.InicioCode.asyncCallback42398652(runtimeScene, asyncObjectsList)), 42398652, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.01), (runtimeScene) => (gdjs.InicioCode.asyncCallback42398652(runtimeScene, asyncObjectsList)), 42398652, asyncObjectsList);
 }
 }
 
@@ -1017,6 +1017,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
+{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.0000000000000001, "", 0);
+}
 {gdjs.evtsExt__PopUp__Alert.func(runtimeScene, "Yah have free Limu..." + gdjs.evtTools.string.newLine() + "Limu is coming for yah...", null);
 }
 

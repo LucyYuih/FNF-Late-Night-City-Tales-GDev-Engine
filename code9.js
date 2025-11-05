@@ -15595,7 +15595,7 @@ gdjs.lonelyCode.eventsList194(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.lonelyCode.userFunc0x11cd5b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.lonelyCode.userFunc0xee2d98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -15785,7 +15785,7 @@ gdjs.lonelyCode.eventsList198(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.lonelyCode.userFunc0x11cd5b0(runtimeScene);
+gdjs.lonelyCode.userFunc0xee2d98(runtimeScene);
 
 }
 
@@ -15962,7 +15962,7 @@ gdjs.lonelyCode.eventsList202(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.lonelyCode.userFunc0x2292ee0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.lonelyCode.userFunc0x1a3e878 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -16152,7 +16152,7 @@ gdjs.lonelyCode.eventsList206(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.lonelyCode.userFunc0x2292ee0(runtimeScene);
+gdjs.lonelyCode.userFunc0x1a3e878(runtimeScene);
 
 }
 
@@ -20859,7 +20859,7 @@ gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDSymbolsObjects1Objects = Hashta
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreakObjects1Objects = Hashtable.newFrom({"Break": gdjs.lonelyCode.GDBreakObjects1});
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak2Objects1Objects = Hashtable.newFrom({"Break2": gdjs.lonelyCode.GDBreak2Objects1});
 gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak3Objects1Objects = Hashtable.newFrom({"Break3": gdjs.lonelyCode.GDBreak3Objects1});
-gdjs.lonelyCode.userFunc0xaa6ba0 = function GDJSInlineCode(runtimeScene) {
+gdjs.lonelyCode.userFunc0x1835cf8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Dialogue scheduler for GDevelop 5 using audio channel 1 offset
 // - Requires a Text object in the scene named "FXTextPrototype"
@@ -20911,8 +20911,7 @@ const DIALOGUES = [
   {"timeSec":126.26086956521738,"x":-110.0,"y":400.0,"angle":3.0,"text":"You just like one of them.","width":1000.0,"size":52.0,"charDelay":0.048,"color":"ABABAB"},
   {"timeSec":128.34782608695653,"x":120.0,"y":200.0,"angle":-5.0,"text":"want to take over everything...","width":1000.0,"size":52.0,"charDelay":0.043,"color":"ABABAB"},
   {"timeSec":130.43478260869566,"x":-100.0,"y":250.0,"angle":0.0,"text":"It’s not over yet.","width":1000.0,"size":128.0,"charDelay":0.08,"color":"ABABAB"},
-  {"timeSec":133.82608695652175,"x":-150.0,"y":300.0,"angle":0.0,"text":"Prepare to die!!!","width":1000.0,"size":148.0,"charDelay":0.01,"color":"ABABAB"},
-  {"timeSec":174.7391304347826,"x":-330.0,"y":400.0,"angle":5.0,"text":"It's my time to revenge...!","width":1000.0,"size":52.0,"charDelay":0.05,"color":"ABABAB"}
+  {"timeSec":133.82608695652175,"x":-150.0,"y":300.0,"angle":0.0,"text":"Prepare to die!!!","width":1000.0,"size":148.0,"charDelay":0.01,"color":"ABABAB"}
 ];
 
   // --- Manager on runtimeScene to persist between frames ---
@@ -21036,7 +21035,7 @@ gdjs.lonelyCode.eventsList272 = function(runtimeScene) {
 {
 
 
-gdjs.lonelyCode.userFunc0xaa6ba0(runtimeScene);
+gdjs.lonelyCode.userFunc0x1835cf8(runtimeScene);
 
 }
 
@@ -22607,7 +22606,7 @@ gdjs.copyArray(runtimeScene.getObjects("LimuH"), gdjs.lonelyCode.GDLimuHObjects1
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelPlayingOffset(runtimeScene, 1) >= 134.34;
+isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelPlayingOffset(runtimeScene, 1) >= 135.65;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43805036);
@@ -22616,40 +22615,14 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BlackScreen2"), gdjs.lonelyCode.GDBlackScreen2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("LimuH"), gdjs.lonelyCode.GDLimuHObjects1);
+gdjs.lonelyCode.GDSymbolsObjects1.length = 0;
+
 {for(var i = 0, len = gdjs.lonelyCode.GDBlackScreen2Objects1.length ;i < len;++i) {
     gdjs.lonelyCode.GDBlackScreen2Objects1[i].getBehavior("Opacity").setOpacity(255);
 }
 }
 {for(var i = 0, len = gdjs.lonelyCode.GDLimuHObjects1.length ;i < len;++i) {
     gdjs.lonelyCode.GDLimuHObjects1[i].getBehavior("Animation").setAnimationIndex(3);
-}
-}
-{for(var i = 0, len = gdjs.lonelyCode.GDBlackScreen2Objects1.length ;i < len;++i) {
-    gdjs.lonelyCode.GDBlackScreen2Objects1[i].getBehavior("Tween").addObjectOpacityTween2("prplout", 0, "linear", 1, false);
-}
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.sound.getSoundOnChannelPlayingOffset(runtimeScene, 1) >= 135.65;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43806484);
-}
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("BlackScreen2"), gdjs.lonelyCode.GDBlackScreen2Objects1);
-gdjs.lonelyCode.GDSymbolsObjects1.length = 0;
-
-{for(var i = 0, len = gdjs.lonelyCode.GDBlackScreen2Objects1.length ;i < len;++i) {
-    gdjs.lonelyCode.GDBlackScreen2Objects1[i].getBehavior("Opacity").setOpacity(255);
 }
 }
 {gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "camzooom", 1, "", "easeInQuad", 0.5);
@@ -22834,9 +22807,13 @@ gdjs.lonelyCode.GDBreak3Objects1.length = 0;
     gdjs.lonelyCode.GDBreakObjects1[i].getBehavior("Animation").setAnimationIndex(4);
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak2Objects1Objects, 0, 0, "");
+{for(var i = 0, len = gdjs.lonelyCode.GDBreakObjects1.length ;i < len;++i) {
+    gdjs.lonelyCode.GDBreakObjects1[i].setLayer("parallax");
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak3Objects1Objects, 0, 0, "");
+}
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak2Objects1Objects, 0, 0, "parallax");
+}
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.lonelyCode.mapOfGDgdjs_9546lonelyCode_9546GDBreak3Objects1Objects, 0, 0, "parallax");
 }
 {for(var i = 0, len = gdjs.lonelyCode.GDBlackScreen2Objects1.length ;i < len;++i) {
     gdjs.lonelyCode.GDBlackScreen2Objects1[i].getBehavior("Tween").addObjectOpacityTween2("prplin", 255, "linear", 3, false);

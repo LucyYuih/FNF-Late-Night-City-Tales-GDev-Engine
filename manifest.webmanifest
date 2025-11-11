@@ -1,7 +1,7 @@
 {
   "name": "FNF' Late Night City Tales - GDev Engine",
   "short_name": "FNF' Late Night City Tales - GDev Engine",
-  "id": "com.fnfskigdev.lucyyuih",
+  "id": "com.fnflnctgdev.lucyyuih",
   "description": "a Port of the \" Late Night City Tales\" Mod for GDev Engine\n\n<3\n\na FNF engine built from scratch in GDevelop that supports the original game's Chart\n\nproject is under development, incomplete, many more features will come in the future :D\n\nCredits:\nCreator(s)\nDaytimefish Studio\nFrazeRIP (Project Leader)\n\nCharter(s)\nBot25\n\nComposer(s)\nRhodes_W\nNaglazYamiZaleD\nSharon\nRed\n\nArtist(s)\nRabbit’s Foot\nDanke\nKuronoR\nDfdffish\nViolet\nRandom Angle\nBonk06\n\nProgrammer(s)\nLunar_Suraface\nToast\n\n----\nLeaderboards and points \ninspired by Psych Online by Snirozu\n\nGDev Engine by LucyYuih",
   "orientation": "landscape",
   "start_url": "./index.html",
